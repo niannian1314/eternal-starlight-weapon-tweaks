@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="eternal_starlight_weapon_tweaks_1787912374"
+version="1.0.0"
+displayName="渊梦回响-星光武器调整"
+authors="2046820954@qq.com"
+description='''
+对永恒星光(Eternal Starlight)的武器属性进行可配置调整。
+'''
+
+[[dependencies.eternal_starlight_weapon_tweaks_1787912374]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.4.10,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.eternal_starlight_weapon_tweaks_1787912374]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1, 1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.eternal_starlight_weapon_tweaks_1787912374]]
+    modId="eternal_starlight"
+    mandatory=true
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"
